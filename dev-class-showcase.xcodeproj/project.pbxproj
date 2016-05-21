@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A04874F1CF0DD16006532D0 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A04874E1CF0DD16006532D0 /* Post.swift */; };
 		7A4B3C7C1CEE28610020B252 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B3C7B1CEE28610020B252 /* DataService.swift */; };
 		7A4B3C7E1CEE31AF0020B252 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4B3C7D1CEE31AF0020B252 /* Firebase.framework */; };
 		7A4B3C801CEE32120020B252 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4B3C7F1CEE32120020B252 /* libicucore.tbd */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0F06552448A240B63D4F86F7 /* Pods_dev_class_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dev_class_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A04874E1CF0DD16006532D0 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		7A4B3C7B1CEE28610020B252 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		7A4B3C7D1CEE31AF0020B252 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		7A4B3C7F1CEE32120020B252 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -166,6 +168,7 @@
 		7A6042E31CEB9D2500EBA7E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7A04874E1CF0DD16006532D0 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				7A6042D01CEB972D00EBA7E3 /* AppDelegate.swift in Sources */,
 				7A6042F11CEBA48D00EBA7E3 /* Constants.swift in Sources */,
 				7A6042F31CEBAA6200EBA7E3 /* MaterialButton.swift in Sources */,
+				7A04874F1CF0DD16006532D0 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
