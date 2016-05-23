@@ -32,7 +32,6 @@ class PostCell: UITableViewCell {
     }
 
     func configureCell(post: Post, img: UIImage?) {
-
         self.post = post
         
         self.descriptionText.text = post.postDescription
@@ -50,6 +49,8 @@ class PostCell: UITableViewCell {
                         let img = UIImage(data: data!)! //Should do if let if does not work
                         self.showcaseImg.image = img
                         FeedVC.imageCache.setObject(img, forKey: self.post.imageUrl!)
+                    } else {
+                        print(err.debugDescription)
                     }
                     
                 })
